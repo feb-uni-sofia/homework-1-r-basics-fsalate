@@ -29,7 +29,7 @@ xmax [xmax>avgxmax] #elements from xmax
 dayNames [xmax>avgxmax] #or if we want to see the days of a week
 
 #f
-
+## Nice
 names(xmin) <- dayNames
 
 names(xmax) <- dayNames
@@ -62,3 +62,6 @@ ExcludFahrenheit <- data.frame (
   df.xminFahrenheit=xminFahrenheit[-c(6,7)]
 )
 
+## Easier
+Ftemperatures[1:5, ]
+Ftemperatures[-(6:7), ]
